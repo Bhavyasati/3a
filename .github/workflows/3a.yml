@@ -3,7 +3,7 @@ on: push
 jobs:
   super-lint:
     name:Line code base
-    runs-on:windows
+    runs-on:Windows
     steps:
       -name: checkout code
       uses: actions/checkout@v2
